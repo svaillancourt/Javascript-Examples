@@ -1,13 +1,116 @@
-.menu-button {
-    position: absolute;
-    color: black;
-    font-size: 3vh;
-    background-color: #FF3300;
-    border-color: white;
-    border-width: 5px;
-    top: 20px;
-    right: 2rem;
-    bottom: auto;
-    left: auto;
-    opacity: 1;
+/* Let's try css3 grid */
+/* check out thi great guide https://css-tricks.com/snippets/css/complete-guide-grid/ */
+
+* { /* Browser reset (very basic one.) */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+.title { grid-area: title; 
+        background: #FCF7F8;
+        /* background-image:url('../img/backgrounds/tube\ map_EEZY_RMPL-01.svg');  */
+        /* background-position: top; */
+        /* background-image:url('../img/backgrounds/abstract-1851115_1920.jpg'); */
+        margin-top: 8vh;
+     }
+
+.content1 { 
+        grid-area: content1; 
+        background: rgb(192, 198, 208); }
+
+.content2 { 
+        grid-area: content2; 
+        background: rgb(176, 181, 189); }
+
+.content3 {
+        grid-area: content3;
+        background: rgb(192, 198, 208); }
+
+.footer { 
+        grid-area: footer;
+        background: rgb(23,37,90); }
+
+.footer2 { 
+        grid-area: footer2;
+        background: rgb(23,37,90); }
+
+.footer3 { 
+        grid-area: footer3;
+        background: rgb(23,37,90); }
+
+.footer4 { 
+        grid-area: footer4;
+        background: rgb(23,37,90); }
+
+.bg1{
+        grid-area: bg1;
+        background: #FCF7F8; }   
+
+.bg2{
+        grid-area: bg2;
+        background: #FCF7F8; }  
+
+.bg3{
+        grid-area: bg3;
+        background:  rgb(192, 198, 208); }   
+
+.bg4{
+        grid-area: bg4;
+        background: rgb(192, 198, 208); } 
+
+.bg5{
+        grid-area: bg5;
+        background:  rgb(23,37,90); }   
+
+.bg6{
+        grid-area: bg6;
+        background: rgb(23,37,90); } 
+
+body {
+    display: grid;
+    background-color: #FCF7F8;
+    grid-template-columns: 100%; /* based on the number of columns */
+    grid-template-rows: auto auto auto auto auto auto auto auto ;  /* based on the number of rows */
+    grid-template-areas:
+    
+    "title" /* Row 1: */
+    "content1" /* Row 2 */
+    "content2" /* Row 3 */
+    "content3" /* Row 4 */
+    "footer" /* Row 5 */
+    "footer2" /* Row 6 */
+    "footer3" /* Row 7 */
+    "footer4" /* Row 8 */
+}
+
+/* Tablet */
+
+@media screen and ( min-width: 500px ) {
+
+body {
+        grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%; /* based on the number of columns */
+        grid-template-rows: auto auto auto auto ;  /* based on the number of rows */
+        grid-template-areas:
+        "title title title title title title" /* row 1 */
+        "content1 content1 content2 content2 content3 content3" /* row 2 */
+        "footer3 footer3 footer3 footer2 footer2 footer2 "   /* row 3 */
+        "footer footer footer footer4 footer4 footer4";   /* row 4 */
+    }
+}
+
+/* Desktop size */
+
+@media screen and ( min-width: 1024px ) {
+   
+body {     
+        grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%; /* based on the number of columns */
+        grid-template-rows: auto auto auto ;  /* based on the number of rows */
+        grid-template-areas:
+        "title title title title title title title title" /* row 1 */
+        "bg3 content1 content1 content2 content2 content3 content3 bg4" /* row 2 */
+        "bg5 footer footer footer2 footer3 footer4 bg6 bg6"; /* row 3 */
+        }
 }

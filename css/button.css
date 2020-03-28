@@ -1,0 +1,73 @@
+  /* buttons mobile*/
+  
+  .btn {
+    background-color: #FF3300;
+    border: none;
+    color: white;
+
+    text-align: center;
+    font-size: 16px;
+
+    padding: 16px 32px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+
+  }
+  
+  .btn:hover {opacity: 0.4}
+
+  .btn-2 {
+    background-color: #00E6E6;
+    border: none;
+    color: black;
+
+    text-align: center;
+    font-size: 16px;
+
+    padding: 16px 32px;
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .btn-2:hover {opacity: 0.5}
+
+/* .btn-3 {
+  background-color: black;
+  border: none;
+
+  color: white;
+  font-weight: bold;
+
+  text-align: center;
+  font-size: 16px;
+
+  padding: 10px 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+
+  opacity: 1;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.btn-3:hover {opacity: 0.5} */
+
+/* a:link, a:visited {
+  background-color: #f42336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none; 
+  display: inline-block;
+} */

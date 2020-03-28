@@ -1,0 +1,199 @@
+/* paragraph formating */
+
+.float-right{
+  float: right;
+}
+
+h1{
+  width: auto;
+  min-width: fit-content;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: left;
+
+  color: black;
+  font-size: 3vh;
+  line-height: 1.7;
+
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+}
+
+h2{
+  width: auto;
+  min-width: fit-content;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: left;
+
+  color: white;
+  font-size: 3vh;
+  line-height: 1.7;
+
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+}
+
+h3{
+  color: #00E6E6;
+  font-size: 2.4vh;
+  font-weight: bold;
+
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+p{
+  color: black;
+  font-size: 1.5vh;
+
+  line-height: 1.7;
+  
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+}
+
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+.nav-logo{
+
+  width: auto;
+  /* min-width: fit-content; */
+  margin-left: auto;
+  margin-right: auto;
+  /* font-size: 3vh; */
+  /* line-height: 1.7; */
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+}
+
+.banner{
+
+  width: auto;
+  min-width: fit-content;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: left;
+
+  color: black;
+  font-size: 3vh;
+  line-height: 1.7;
+  
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+}
+
+.title-spacing{
+
+    width: auto;
+    min-width: fit-content;
+  
+    margin-left: auto;
+    margin-right: auto;
+  
+    text-align: left;
+
+    color: #003399;
+    font-size: 3vh;
+    line-height: 1.7;
+  
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+  }
+
+  .text-spacing{
+
+    min-width: fit-content;
+  
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  
+    color: #17255A;
+    font-size: 2vh;
+    font-weight: 600;
+    line-height: 2.0;
+  }
+
+.text-spacing-2{
+
+  min-width: fit-content;
+
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  color: white;
+  font-size: 2vh;
+  line-height: 2.0;
+  }
+
+  .text-spacing-3{
+
+  min-width: fit-content;
+
+  padding-top: 15px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  color: black;
+  font-size: 2vh;
+  line-height: 2.0;
+}
+
+.footer-text{
+  
+  color: white;
+  font-size: 2.0vh;
+
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.footer-logo{
+  
+  font-size: 2.4vh;
+  font-weight: bold;
+
+  padding-top: 20px;
+  padding-left: 250px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  
+}

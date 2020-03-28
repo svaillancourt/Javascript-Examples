@@ -1,11 +1,9 @@
-// // defing step
-// var step = document.querySelector('step');
+// annoying alert
+window.alert("Welcome back to tips and tricks featuring your host JavaScript!");
 
-// // 
-// var myStepButton = document.querySelector( '.menu-button' );
 
-// // Let's listen for a click on this.
+// function that replaces text within the HTML
 
-// myStepButton.addEventListener('click', function ( event ) {
-//     // When clicked, add/remove the "nav-open" class (in HTML.)
-//     onclick="document.getElementById('step').style.fontSize='50px'";
+function myFunction() {
+    document.getElementById("replace").innerHTML = "You pressed the magic button! This is how you change a paragraph to whatever you want!";
+   }

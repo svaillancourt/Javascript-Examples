@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <!-- Character set: -->
     <meta charset="utf-8">
@@ -7,7 +8,7 @@
     <meta name="author" content="Stephane">
 
     <title> JavaScript Examples! </title>
- 
+
     <!-- Viewport for enhanced responsive: -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -23,6 +24,12 @@
 
     <!-- JavaScript file(s): -->
     <script type="text/javascript" src="./js/scripts.js" defer></script>
+
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Paragraph changed.";
+        }
+    </script>
 </head>
 
 <html>
@@ -34,19 +41,68 @@
     <!-- increases the size of the font-->
     <p id="step">JavaScript can change the style of an HTML element.</p>
 
-    <button type="button" onclick="document.getElementById('step').style.fontSize='55px'">Click Me!</button>   
+    <button type="button" onclick="document.getElementById('step').style.fontSize='55px'">Click Me!</button>
 
     <!-- hides the element within the ID-->
     <p id="hide">JavaScript can hide HTML elements.</p>
-    
-    <button type="button" onclick="document.getElementById('hide').style.display='none'">Click Me!</button> 
+
+    <button type="button" onclick="document.getElementById('hide').style.display='none'">Click Me!</button>
 
     <!-- shows the element within the ID-->
     <p>JavaScript can show hidden HTML elements.</p>
 
-    <p id="show" style="display:none">Hello JavaScript!</p>
+    <img id ="show" style="display:none" src="./img/animaniacs.jfif"><br></img>
 
-    <button type="button" onclick="document.getElementById('show').style.display='block'">Click Me!</button> 
+    <button type="button" onclick="document.getElementById('show').style.display='block'">Click Me!</button>
+
+    <!-- Writting script within the HTML-->
+
+    <p id="type-stuff"></p>
+
+    <script>
+        document.getElementById("type-stuff").innerHTML = "My First JavaScript text that show up only due to the script being ran here";
+    </script>
+
+    <!-- Using a function from an external section-->
+
+    <h2>External JavaScript</h2>
+
+    <p id="replace">A Paragraph.</p>
+
+    <button type="button" onclick="myFunction()">Try it</button>
+
+    <p>(myFunction is stored in an external file called "Scripts.js")</p>
+
+    <script src="myScript.js"></script>
+
+    <!-- Running a calculation within the HTML-->
+
+    <h2>Math JavaScript</h2>
+
+    <p>Running a calculation within the HTML. Example: 5 + 6 =</p>
+
+    <p id="add"></p>
+
+    <script>
+        document.getElementById("add").innerHTML = 5 + 6;
+    </script>
+
+    <p>Never call document.write after the document has finished loading.
+        It will overwrite the whole document.</p>
+
+    <script>
+        document.write(5 + 6);
+    </script>
+
+    <!-- Running a calculation within command to the console-->
+
+    <h2>Activate debugging with F12</h2>
+
+    <p>Select "Console" in the debugger menu. Then click Run again.</p>
+
+    <script>
+        console.log(5 + 6);
+    </script>
 
 </body>
 

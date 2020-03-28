@@ -26,3 +26,9 @@ return	Exits a function
 switch	Marks a block of statements to be executed, depending on different cases
 try ... catch	Implements error handling to a block of statements
 var	Declares a variable
+
+JavaScript Variables
+
+var x, y, z;       // How to declare variables
+x = 5; y = 6;      // How to assign values
+z = x + y;         // How to compute values

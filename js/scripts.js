@@ -13,4 +13,8 @@ function simpsonsText() {
     document.getElementById("text3").innerHTML = "Dude... That's a spoon";
    }
 
-   
+   var x = 5;
+   var y = 6;
+   var z = x + y;
+
+   document.getElementById("math").innerHTML =  "This value of z is : " + z + " this value is placed in by the script code";

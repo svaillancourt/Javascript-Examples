@@ -15,7 +15,7 @@
     <!-- Vendor CSS Styles -->
 
     <!-- Vendor JS Scripts -->
-    <script type="text/javascript" src="./Team-Members/Stephane/vendor/jquery.js"></script>
+    <!-- <script type="text/javascript" src="./Team-Members/Stephane/vendor/jquery.js"></script> -->
 
     <!-- Stylesheet(s): -->
     <link rel="stylesheet" type="text/css" href="./css/text-formating.css">
@@ -38,92 +38,110 @@
         <ul>
             <li>
                 <a href="./index.html">
-                    <h1>Home</h1>
+                    <h2>Home</h2>
                 </a>
             </li>
             <li>
                 <a href="./about-us.html">
-                    <h1>Basic JavaScript</h1>
+                    <h2>HTML functions</h2>
                 </a>
             </li>
-
+            <li>
+                <a href="./about-us.html">
+                    <h2>HTML functions</h2>
+                </a>
+            </li>
             <button class="menu-button">
                 &#9776;
                 <!-- Hamburger character (3 lines.) -->
             </button>
     </nav>
-<section class="title">
-    <h1>What Can JavaScript Do?</h1>
+    <section class="title">
+        <h1>What Can JavaScript Do?</h1>
 
-    <!-- increases the size of the font-->
-    <p id="step">JavaScript can change the style of an HTML element.</p>
+        <!-- increases the size of the font-->
+        <p id="step">JavaScript can change the style of an HTML element.</p>
 
-    <button class= "btn" onclick="document.getElementById('step').style.fontSize='55px'">Click Me!</button>
+        <button class="btn" onclick="document.getElementById('step').style.fontSize='55px'">Click Me!</button>
 
-    <!-- hides the element within the ID-->
-    <p id="hide">JavaScript can hide HTML elements.</p>
+        <!-- hides the element within the ID-->
+        <p id="hide">JavaScript can hide HTML elements.</p>
+        <br>
 
-    <button class= "btn" onclick="document.getElementById('hide').style.display='none'">Click Me!</button>
+        <button class="btn" onclick="document.getElementById('hide').style.display='none'">Click Me!</button>
 
-    <!-- shows the element within the ID-->
-    <p>JavaScript can show hidden HTML elements.</p>
+        <!-- shows the element within the ID-->
+        <p>JavaScript can show hidden HTML elements.</p>
+        <br>
 
-    <img id="show" style="display:none" src="./img/animaniacs.jfif"><br></img>
+        <img id="show" style="display:none" src="./img/animaniacs.jfif"><br></img>
 
-    <button class= "btn" type="button" onclick="document.getElementById('show').style.display='block'">Click Me!</button>
+        <button class="btn" type="button" onclick="document.getElementById('show').style.display='block'">Click
+            Me!</button>
 
-    <!-- Writting script within the HTML-->
+        <!-- Writting script within the HTML-->
 
-    <p id="type-stuff"></p>
+        <p id="type-stuff"></p>
 
-    <script>
-        document.getElementById("type-stuff").innerHTML = "My First JavaScript text that show up only due to the script being ran here";
-    </script>
+        <script>
+            document.getElementById("type-stuff").innerHTML = "My First JavaScript text that show up only due to the script being ran here";
+        </script>
 
-    <!-- Using a function from an external section-->
+        <!-- Using a function from an external section-->
 
-    <h1>External JavaScript</h1>
+        <h1>External JavaScript</h1>
 
-    <p id="replace">A Paragraph.</p>
+        <p id="replace">A Paragraph.</p>
 
-    <button class= "btn" type="button" onclick="myFunction()">Try it</button>
+        <button class="btn" type="button" onclick="myFunction()">Try it</button>
 
-    <p>(myFunction is stored in an external file called "Scripts.js")</p>
+        <p>(myFunction is stored in an external file called "./js/scripts.js")</p>
 
-    <script src="myScript.js"></script>
+        <script src="./js/scripts.js"></script>
 
-    <!-- Running a calculation within the HTML-->
+        <!-- Running a calculation within the HTML-->
 
-    <h1>Math JavaScript</h1>
+        <h1>Math JavaScript</h1>
 
-    <p>Running a calculation within the HTML. Example: 5 + 6 =</p>
+        <p>Running a calculation within the HTML. Example: 5 + 6 =</p>
 
-    <p id="add"></p>
+        <p id="add"></p>
 
-    <script>
-        document.getElementById("add").innerHTML = 5 + 6;
-    </script>
+        <script>
+            document.getElementById("add").innerHTML = 5 + 6;
+        </script>
 
-    <!-- Running a calculation using the write command-->
+        <!-- Running a calculation using the write command-->
 
-    <p>Never call document.write after the document has finished loading.
-        It will overwrite the whole document.</p>
+        <p>Never call document.write after the document has finished loading.
+            It will overwrite the whole document.</p>
 
-    <script>
-        document.write(5 + 6);
-    </script>
+        <script>
+            document.write(5 + 6);
+        </script>
 
-    <!-- Running a calculation within command to the console-->
+        <!-- Running a calculation within command to the console-->
 
-    <h1>Activate debugging with F12</h1>
+        <h1>Activate debugging with F12</h1>
 
-    <p>Select "Console" in the debugger menu. Then click Run again.</p>
+        <p>Select "Console" in the debugger menu. Then click Run again.</p>
 
-    <script>
-        console.log(5 + 6);
-    </script>
+        <script>
+            console.log(5 + 6);
+        </script>
 
-</section>
+        <h1>JavaScript Statements</h1>
+
+        <p>JavaScript code blocks are written between { and }</p>
+
+        <button class="btn" type="button" onclick="simpsonsText()">Click Me!</button>
+        <!-- <button class="btn" type="button" onclick="simpsonsText()">Click Me!</button> -->
+
+        <p id="text1"></p>
+        <p id="text2"></p>
+        <p id="text3"></p>
+
+    </section>
 
 </body>
 

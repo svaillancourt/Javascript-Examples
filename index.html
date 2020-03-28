@@ -24,9 +24,6 @@
     <!-- JavaScript file(s): -->
     <script type="text/javascript" src="./js/scripts.js" defer></script>
 </head>
-<head>
-
-</head>
 
 <html>
 
@@ -34,9 +31,22 @@
 
     <h2>What Can JavaScript Do?</h2>
 
+    <!-- increases the size of the font-->
     <p id="step">JavaScript can change the style of an HTML element.</p>
 
-    <button type="button" onclick="document.getElementById('step').style.fontSize='35px'">Click Me!</button>
+    <button type="button" onclick="document.getElementById('step').style.fontSize='55px'">Click Me!</button>   
+
+    <!-- hides the element within the ID-->
+    <p id="hide">JavaScript can hide HTML elements.</p>
+    
+    <button type="button" onclick="document.getElementById('hide').style.display='none'">Click Me!</button> 
+
+    <!-- shows the element within the ID-->
+    <p>JavaScript can show hidden HTML elements.</p>
+
+    <p id="show" style="display:none">Hello JavaScript!</p>
+
+    <button type="button" onclick="document.getElementById('show').style.display='block'">Click Me!</button> 
 
 </body>
 

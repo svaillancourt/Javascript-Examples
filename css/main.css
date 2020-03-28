@@ -1,0 +1,13 @@
+.menu-button {
+    position: absolute;
+    color: black;
+    font-size: 3vh;
+    background-color: #FF3300;
+    border-color: white;
+    border-width: 5px;
+    top: 20px;
+    right: 2rem;
+    bottom: auto;
+    left: auto;
+    opacity: 1;
+}

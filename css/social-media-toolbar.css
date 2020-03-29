@@ -1,0 +1,23 @@
+.fa {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+
+
+    font-size: 3vh;
+    /* text-align: center; */
+    text-decoration: none;
+    padding: 20px;
+}    
+    /* Add a hover effect if you want */
+    .fa:hover {
+    opacity: 0.4;
+    }
+    
+    /* Set a specific color for each brand */
+    
+    /* Linkedin */
+    .fa-linkedin {
+    background: white;
+    color: black;
+    }

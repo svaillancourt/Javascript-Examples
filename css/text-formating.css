@@ -43,7 +43,7 @@ h2{
 }
 
 h3{
-  color: #00E6E6;
+  color: rgb(177, 151, 247);
   font-size: 2.4vh;
   font-weight: bold;
 
@@ -63,6 +63,10 @@ p{
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 0px;
+}
+
+ul{
+  line-height: 2.0;
 }
 
 a:link {
@@ -92,6 +96,8 @@ a:hover {
   padding-right: 30px;
   padding-bottom: 0px;
 }
+
+
 
 .banner{
 

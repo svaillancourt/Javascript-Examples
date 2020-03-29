@@ -43,3 +43,5 @@ function simpsonsText() {
     var carName2 = 'Ford Escape';
 
     document.getElementById("carModel").innerHTML = carName1 + "<br>" + carName2 + "<br>" + carName1; 
+
+    onclick="document.getElementById('myImage').src='./img/wards/city-ward-1.png'";

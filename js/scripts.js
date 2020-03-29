@@ -44,4 +44,10 @@ function simpsonsText() {
 
     document.getElementById("carModel").innerHTML = carName1 + "<br>" + carName2 + "<br>" + carName1; 
 
-    onclick="document.getElementById('myImage').src='./img/wards/city-ward-1.png'";
+    // more math
+    function myMulti(p1, p2) {
+      return p1 * p2;
+    }
+    document.getElementById("multi").innerHTML = myMulti(4, 3);
+
+    

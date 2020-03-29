@@ -200,3 +200,44 @@ JavaScript variables can hold many data types: numbers, strings, objects and mor
 var length = 16;                               // Number
 var lastName = "Johnson";                      // String
 var x = {firstName:"John", lastName:"Doe"};    // Object
+
+==================================
+
+Function Return
+
+When JavaScript reaches a return statement, the function will stop executing.
+
+If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.
+
+Functions often compute a return value. The return value is "returned" back to the "caller":
+
+==================================
+
+Real Life Objects, Properties, and Methods
+In real life, a car is an object.
+
+A car has properties like weight and color, and methods like start and stop:
+
+Object	   Properties	
+
+car.name = Fiat
+
+car.model = 500
+
+car.weight = 850kg
+
+car.color = white	
+
+Methods
+
+car.start()
+
+car.drive()
+
+car.brake()
+
+car.stop()
+
+All cars have the same properties, but the property values differ from car to car.
+
+All cars have the same methods, but the methods are performed at different times.

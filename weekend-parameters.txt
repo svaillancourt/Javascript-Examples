@@ -1,0 +1,41 @@
+
+- techc (sent by achampag@ualberta.ca)
+Mar 27, 2020, 8:19 AM (2 days ago)
+to Warren, Bo, Cole, Clayton
+
+Hello Team,
+Now that we have finished a few assignments, and our first major milestone we will be assigning weekend homework each week. These assignments are intended to be small, self-directed assignments meant to address important topics that still need to be demonstrated by the students. For each of your weekend assignments you will have a choice between an instructor-defined assignment or a self-defined assignment.
+
+SELF-DEFINED ASSIGNMENTS:
+If you choose to define your own assignment then it will be mandatory that you accomplish the following:
+1. Your assignment must use the relevant skill outlined by the staff each week.
+2. You must complete the assignment by Monday 9:00am. So make sure the scope of the assignment is something that you can reasonably manage.
+3. Your assignment must be shared publicly on GitHub and you must submit a link to your repository to techc@ualberta.ca before 9:00am each Monday.
+4. Your code must be clean, organized, and well-documented with comments.
+5. Any code snippets copied from online resources must be accompanied with a comment that includes a link to where you found the code.
+6. You must send a project proposal to techc@ualberta.ca by 2:00pm on Friday afternoon.
+7. You may not start on your project until you have project approval from an instructor or teaching assistant.
+8. You can not change your mind and switch to the instructor-defined assignment halfway through the weekend.
+9. Your code must work. Your project must pass a smoke test.
+
+INSTRUCTOR-DEFINED ASSIGNMENTS:
+Each week the instructors may suggest an assignment. For example, the instructors may assign you 2 Medium problems from edabit.com or ask that you build webform, or any other small task that will demonstrate a competency. If you choose to do an instructor defined assignment then you must accomplish the following:
+1. Your assignment must use the relevant skill outlined by the staff each week.
+2. You must complete the assignment by Monday 9:00am.
+3. Your assignment must be shared publicly on GitHub and you must submit a link to your repository to techc@ualberta.ca before 9:00am each Monday.
+4. Your code must be clean, organized, and well-documented with comments.
+5. Any code snippets copied from online resources must be accompanied with a comment that includes a link to where you found the code.
+6. Your code must work. Your project must pass a smoke test.
+
+Each assignment is only meant to last one weekend. You may not carry over assignments from one week to the other because the competency of the week will be changing based on staff recommendations.
+
+To keep assignments small we will only be requiring one competency for a week. For example, we may ask that you work on DOM Manipulation with JavaScript. Or we might ask that you make a responsive webform. But we would not ask that you build a whole app over the weekend.
+
+The end-goal of the weekend projects is to fill your Github with projects that show the kind of programming that you are personally interested while also reinforcing the skills learned in class.
+
+For the weekend of March 27-29 the comptency is JavaScript. The instructor-defined suggestion is either 2 Medium Edabits or 1 Hard Edabit (https://edabit.com/challenges/javascript). If you are excited to make your own project we recommend you check out a few blogs like this one (https://skillcrush.com/blog/projects-you-can-do-with-javascript/) for inspiration. REMEMBER - you have to finish these projects in a weekend. So making a JavaScript clock would probably be fine, but making a JavaScript video game will probably be too large. We just want you to fall in love with JavaScript this weekend. We do not want you to stress out over something big, so pick something small.
+
+Please fill out this form (https://forms.gle/dNJYjXCPAgR78NAt8) to prove you have recieved and understood this message.
+
+Best of luck,
+TECHCareers Staff

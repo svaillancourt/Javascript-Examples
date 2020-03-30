@@ -26,8 +26,8 @@
     <link rel="stylesheet" type="text/css" href="./css/main.css">
 
     <!-- JavaScript file(s): -->
-    <script type="text/javascript" src="./js/events.js" defer></script>
     <script type="text/javascript" src="./js/nav-bar.js" defer></script>
+    <script type="text/javascript" src="./js/events.js" defer></script>
 
 </head>
 
@@ -54,8 +54,18 @@
                 </a>
             </li>
             <li>
+                <a href="./arrays.html">
+                    <h2>Arrays</h2>
+                </a>
+            </li>
+            <li>
                 <a href="./city-layout.html">
                     <h2>Edmonton Voting Wards</h2>
+                </a>
+            </li>
+            <li>
+                <a href="./weekend.html">
+                    <h2>Weekend Assignments</h2>
                 </a>
             </li>
             <button class="menu-button">
@@ -75,6 +85,14 @@
         <button class = "btn" onclick="document.getElementById('time').innerHTML=Date()">The time is?</button>
 
         <p id="time"></p>
+
+        <p>or trying calling using a function like displayDate()</p>
+        <br>
+        <button class = "btn" onclick="displayDate()">The time is?</button>
+
+        <p id="date"></p>
+
+        <!-- display your system time -->
 
         <br>
     </section>

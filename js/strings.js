@@ -69,3 +69,22 @@ function simpsonsText() {
 
   // the (); is critical as that calls whats in the function
   document.getElementById("profile2").innerHTML = person2.fullName();
+
+
+  // formating strings
+
+  var x = "Step";        // x is a string
+  var y = new String("Is");  // y is an object that gives it a new line
+  var z = new String("Crazy");  // y is an object that gives it a new line
+
+  document.getElementById("format").innerHTML = x + "<br>" + y + "<br>" + z;
+
+  // defining the lenght of a string 
+  var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  document.getElementById("alpha").innerHTML = txt.length;
+
+  // location of a string.  Its like ctrl + f
+  var str = "Please locate where 'locate' occurs!";
+  var pos = str.indexOf("locate");
+
+  document.getElementById("find").innerHTML = pos;

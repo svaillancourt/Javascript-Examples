@@ -266,3 +266,21 @@ onmouseover	The user moves the mouse over an HTML element
 onmouseout	The user moves the mouse away from an HTML element
 onkeydown	The user pushes a keyboard key
 onload	The browser has finished loading the page
+
+====================================================
+Escape Character
+
+Code	Result	Description
+\'	'	Single quote
+\"	"	Double quote
+\\	\	Backslash
+
+Six other escape sequences are valid in JavaScript:
+
+Code	Result
+\b	Backspace
+\f	Form Feed
+\n	New Line
+\r	Carriage Return
+\t	Horizontal Tabulator
+\v	Vertical Tabulator

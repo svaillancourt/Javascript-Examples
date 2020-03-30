@@ -69,13 +69,13 @@ ul{
   line-height: 2.0;
 }
 
-/* a:link {
-  color: blue;
-} */
+a:link {
+  color: white;
+}
 
 /* visited link */
 a:visited {
-  color: black;
+  color: white;
 }
 
 /* mouse over link */

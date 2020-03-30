@@ -81,13 +81,78 @@
 
         <h1>Question 1</h1>
 
-        <a href ="https://edabit.com/challenge/kJQYTCCWSnzhXG9dn"> <img src="./img/Assignment-March27/questions1.png" ></img></a>
+        <a href="https://edabit.com/challenge/kJQYTCCWSnzhXG9dn"> <img
+                src="./img/Assignment-March27/questions1.png"></img></a>
 
-        <p><a href ="https://edabit.com/challenge/kJQYTCCWSnzhXG9dn">Edabit link</a></p>
+        <p><a href="https://edabit.com/challenge/kJQYTCCWSnzhXG9dn">Edabit link</a></p>
 
         <h1>The numbers in question</h1>
 
-        <p id ="numbers"></p>
+        <p id="numbers"></p>
+        <p id="numbers1Sort"></p>
+        <p id="numbers1Reverse"></p>
+
+        <p id="numbers2"></p>
+        <p id="numbers2Sort"></p>
+        <p id="numbers2Reverse"></p>
+
+        <h1>Question 2</h1>
+
+        <a href="https://edabit.com/challenge/4aaBNPnFMc3bzR7JR"> <img
+                src="./img/Assignment-March27/questions2.png"></img></a>
+
+        <p> https://edabit.com/challenge/4aaBNPnFMc3bzR7JR</p>
+
+        <p>Solution below. Please vue in console</p>
+
+
+        <script>
+
+            // reference https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
+
+            const person = {
+                name: 'Stephane',
+                age: 31
+            }
+
+            // displays the entry above
+
+            console.log(Object.entries(person))
+
+            // loops the entry
+
+            for (const [key, value] of Object.entries(person)) {
+                // determining your key and value parameters withing the loop
+                console.log(`Key => ${key} | Value => ${value}`);
+            }
+
+        </script>
+
+        <h1>Question 3</h1>
+
+        <a href="https://edabit.com/challenge/ebcd4Xu8TLizaj6dm"> <img
+                src="./img/Assignment-March27/questions3.png"></img></a>
+
+        <p>https://edabit.com/challenge/ebcd4Xu8TLizaj6dm</p>
+
+        <p>Solution below. Please vue in console</p>
+
+        <script>
+
+            function arrayOfMultiples(num, lenght) {
+                // defining the variable
+                var arr = [];
+
+                // first index; i must stop at the desired lenght, incremeneted)
+                for (i = 1; i <= length; i++) {
+                    // add the next loop that is multiplied
+                    arr.push(num * i);
+                }
+            }
+
+        console.log(arr);
+        
+        </script>
 
         <br>
     </section>

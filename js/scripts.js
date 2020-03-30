@@ -3,7 +3,7 @@
 
 // function that replaces text within the HTML
 
-function myFunction() {
+function myReplacement() {
     document.getElementById("replace").innerHTML = "You pressed the magic button! This is how you change a paragraph to whatever you want!";
    }
 
@@ -27,11 +27,11 @@ function simpsonsText() {
   }
   document.getElementById("multi").innerHTML = myMulti(4, 3);
 
-  function myFunction() {
+  function myAlert() {
     alert("Are you ready to learn about the exciting world of JavaScript?!");
   }
 
-  // myFunction(); // This runs the alert function above 
+  // myAlert(); // This runs the alert function above 
   
  // writing out a math equation and adding the variable to a HTML insert  
 
@@ -47,7 +47,6 @@ function simpsonsText() {
  document.getElementById("car").innerHTML = carName;
  // document.getElementById("car").getElementById.fontsize="54px";
  // document.getElementById("car").getElementById.fontcolor ="#34ebcf";
-
 
  // adding a space a string in place
 
@@ -77,4 +76,4 @@ function simpsonsText() {
     personality: "ENFP" 
   };
   
-  document.getElementById("profile").innerHTML = "Hi, My name is " + person.firstName + " " + person.lastName + ", " + "i am currently " + person.age + " years old. I call " + person.home + " home at the moment. I have "+ person.eyeColor + " eyes and my personality is a " + person.personality;
+  document.getElementById("profile").innerHTML = "Hi, My name is " + person.firstName + " " + person.lastName + ", " + "i am currently " + person.age + " years old. I call " + person.home + " home at the moment. I have "+ person.eyeColor + " eyes and my personality type is a " + person.personality;

@@ -3,8 +3,8 @@
 <head>
     <!-- Character set: -->
     <meta charset="utf-8">
-    <meta name="description" content="City of Edmonton Municipal Voting Wards!">
-    <meta name="keywords" content="Edmonton, Voting, , COVID-19">
+    <meta name="description" content="JavaScript Examples!">
+    <meta name="keywords" content="JavaScript, Learning, Examples, COVID-19">
     <meta name="author" content="Stephane">
 
     <title> JavaScript Examples! </title>
@@ -13,12 +13,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Vendor CSS Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Vendor JS Scripts -->
     <!-- <script type="text/javascript" src="./Team-Members/Stephane/vendor/jquery.js"></script> -->
 
     <!-- Stylesheet(s): -->
     <link rel="stylesheet" type="text/css" href="./css/text-formating.css">
+    <link rel="stylesheet" type="text/css" href="./css/social-media-toolbar.css">
     <link rel="stylesheet" type="text/css" href="./css/button.css">
     <link rel="stylesheet" type="text/css" href="./css/nav-bar.css">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
@@ -57,54 +59,150 @@
             </button>
         </ul>
     </nav>
-
-    <!-- A animation style within  the ID-->
     <section class="title">
-    <h1>JavaScript enabled Ward map.</h1>
+        <h1>What Can JavaScript Do?</h1>
 
-    <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+        <!-- increases the size of the font-->
+        <p id="step">JavaScript can change the style of an HTML element.</p>
 
-    <p>Click on the ward you live in. The area will be highlighted along withthe associated voting information will appear for you.</p>
+        <button class="btn" onclick="document.getElementById('step').style.fontSize='55px'">Click Me!</button>
 
-    <p>Eventually i'd like to expand to either a dropdown menu with all the neightborhoods in the city it will push you to your wards infromation.</p>
+        <!-- hides the element within the ID-->
+        <p id="hide">JavaScript can hide HTML elements.</p>
+        <br>
 
-    <p>Information such as: Your current MLA, Office Address, Phone # and Email.</p>
+        <button class="btn" onclick="document.getElementById('hide').style.display='none'">Click Me!</button>
 
-    <br>
+        <!-- shows the element within the ID-->
+        <p>JavaScript can show hidden HTML elements.</p>
+        <br>
 
-    <!-- Image starts off as blank -->
+        <img id="show" style="display:none" src="./img/animaniacs.jfif"><br></img>
 
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-1.png'">Ward 1</button>
-  
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-2.png'">Ward 2</button>
+        <button class="btn" type="button" onclick="document.getElementById('show').style.display='block'">Click
+            Me!</button>
 
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-3.png'">Ward 3</button>
- 
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-4.png'">Ward 4</button>
+        <!-- Writting script within the HTML-->
 
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-5.png'">Ward 5</button>
+        <h1>Making text appear from a script file</h1>
 
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-6.png'">Ward 6</button>
+        <p id="type-stuff"></p>
 
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-7.png'">Ward 7</button>
+        <script>
+            document.getElementById("type-stuff").innerHTML = "My First JavaScript text that show up only due to the script being ran here";
+        </script>
 
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-8.png'">Ward 8</button>
+        <!-- Using a function from an external section-->
 
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-9.png'">Ward 9</button>
+        <h1>External JavaScript</h1>
 
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-10.png'">Ward 10</button>
+        <p id="replace">A Paragraph.</p>
 
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-11.png'">Ward 11</button>
+        <button class="btn" type="button" onclick="myReplacement()">Try it</button>
 
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-12.png'">Ward 12</button>
+        <p>(myFunction is stored in an external file called "./js/scripts.js")</p>
 
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-layout.png'">Reset</button>
+        <script src="./js/scripts.js"></script>
 
-    <br>
-    <!-- Image starts off as blank -->
-    <img id="myImage" src="./img/wards/city-ward-layout.png" style="width:500px">
+        <!-- Inserting multiple lines of HTML from an External Script-->
+        <h1>Strings - adding multiple lines together</h1>
+
+        <p>JavaScript code blocks are written between { and }</p>
+
+        <button class="btn" type="button" onclick="simpsonsText()">Click Me!</button>
+        <!-- <button class="btn" type="button" onclick="simpsonsText()">Click Me!</button> -->
+
+        <p id="text1"></p>
+        <p id="text2"></p>
+        <p id="text3"></p>
+
+        <!-- Inserting a variable and displaying it from an External Script-->
+
+        <h1>Strings - Variables - Displaying them</h1>
+
+        <p>Create a variable, assign a value to it, and display it:</p>
+
+        <p id="car"></p>
+
+        <!-- Inserting string variables and displaying it from an External Script-->
+
+        <h1>Strings (Putting them together)</h1>
+
+        <p>Strings are written with quotes. You can use single or double quotes:</p>
+
+        <p id="carModel"></p>
+        
+        <!-- Adding multiple objects together from an external script-->
+
+        <h1>Strings - Car Description</h1>
+
+        <p id="carLabel"></p>
+
+        <h1>Strings - Personal Profile</h1>
+
+        <p id="profile"></p>
+
+        <h1>Profile using a function</h1>
+        
+        <p id="profile2"></p>
+
+        <!-- Running a calculation within the HTML-->
+
+        <h1>Math JavaScript style</h1>
+
+        <p>Running a calculation within the HTML. Example: 5 + 6 =</p>
+
+        <p id="add"></p>
+
+        <script>
+            document.getElementById("add").innerHTML = 5 + 6;
+        </script>
+
+        <!-- Running a calculation using the write command-->
+
+        <p>Never call document.write after the document has finished loading.
+            It will overwrite the whole document.</p>
+
+        <script>
+            document.write(5 + 6);
+        </script>
+
+        <!-- Variables from External Script-->
+
+        <h1>Math - Defining Variables</h1>
+
+        <p>In this example, x, y, and z are variables.</p>
+
+        <p id="math"></p>
+
+        <!-- Math - Multiply from External Script-->
+
+        <h1>Math - Multiplication Variables</h1>
+
+        <p>In this function, (myMulti) x = 4, y = 3, and the result is.</p>
+
+        <p id="multi"></p>
+
+        <!-- Math - Add from External Script-->
+
+        <h1>Math - Addition using Variables</h1>
+
+        <p> var price1 = 5; var price2 = 10; var total = price1 + price2;</p>
+
+        <p id="total"></p>
+
+        <!-- Running a calculation within command to the console-->
+
+        <h1>Math - Activate debugging with F12</h1>
+
+        <p>Select "Console" in the debugger menu. Then click Run again.</p>
+
+        <script>
+            console.log(5 + 6);
+        </script>
 
     </section>
+
 
     <section class="footer">
         <br>
@@ -200,3 +298,6 @@
     <section class="bg4"></section>
     <section class="bg5"></section>
     <section class="bg6"></section>
+</body>
+
+</html>

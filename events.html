@@ -3,8 +3,8 @@
 <head>
     <!-- Character set: -->
     <meta charset="utf-8">
-    <meta name="description" content="City of Edmonton Municipal Voting Wards!">
-    <meta name="keywords" content="Edmonton, Voting, , COVID-19">
+    <meta name="description" content="JavaScript Event Examples!">
+    <meta name="keywords" content="JavaScript, Learning, Examples, COVID-19">
     <meta name="author" content="Stephane">
 
     <title> JavaScript Examples! </title>
@@ -13,18 +13,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Vendor CSS Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Vendor JS Scripts -->
     <!-- <script type="text/javascript" src="./Team-Members/Stephane/vendor/jquery.js"></script> -->
 
     <!-- Stylesheet(s): -->
     <link rel="stylesheet" type="text/css" href="./css/text-formating.css">
+    <link rel="stylesheet" type="text/css" href="./css/social-media-toolbar.css">
     <link rel="stylesheet" type="text/css" href="./css/button.css">
     <link rel="stylesheet" type="text/css" href="./css/nav-bar.css">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
 
     <!-- JavaScript file(s): -->
-    <script type="text/javascript" src="./js/scripts.js" defer></script>
+    <script type="text/javascript" src="./js/events.js" defer></script>
     <script type="text/javascript" src="./js/nav-bar.js" defer></script>
 
 </head>
@@ -63,52 +65,18 @@
         </ul>
     </nav>
 
-    <!-- A animation style within  the ID-->
     <section class="title">
-    <h1>JavaScript enabled Ward map.</h1>
+        <h1>What Can JavaScript Events Do?</h1>
 
-    <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+        <p>The button below will pull from the Date() function and output your system date/time</p>
 
-    <p>Click on the ward you live in. The area will be highlighted along withthe associated voting information will appear for you.</p>
+        <!-- display your system time -->
 
-    <p>Eventually i'd like to expand to either a dropdown menu with all the neightborhoods in the city it will push you to your wards infromation.</p>
+        <button class = "btn" onclick="document.getElementById('time').innerHTML=Date()">The time is?</button>
 
-    <p>Information such as: Your current MLA, Office Address, Phone # and Email.</p>
+        <p id="time"></p>
 
-    <br>
-
-    <!-- Image starts off as blank -->
-
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-1.png'">Ward 1</button>
-  
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-2.png'">Ward 2</button>
-
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-3.png'">Ward 3</button>
- 
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-4.png'">Ward 4</button>
-
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-5.png'">Ward 5</button>
-
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-6.png'">Ward 6</button>
-
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-7.png'">Ward 7</button>
-
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-8.png'">Ward 8</button>
-
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-9.png'">Ward 9</button>
-
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-10.png'">Ward 10</button>
-
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-11.png'">Ward 11</button>
-
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-12.png'">Ward 12</button>
-
-    <button class ="btn" onclick="document.getElementById('myImage').src='./img/wards/city-ward-layout.png'">Reset</button>
-
-    <br>
-    <!-- Image starts off as blank -->
-    <img id="myImage" src="./img/wards/city-ward-layout.png" style="width:500px">
-
+        <br>
     </section>
 
     <section class="footer">
@@ -205,3 +173,6 @@
     <section class="bg4"></section>
     <section class="bg5"></section>
     <section class="bg6"></section>
+</body>
+
+</html>

@@ -77,3 +77,17 @@ function simpsonsText() {
   };
   
   document.getElementById("profile").innerHTML = "Hi, My name is " + person.firstName + " " + person.lastName + ", " + "i am currently " + person.age + " years old. I call " + person.home + " home at the moment. I have "+ person.eyeColor + " eyes and my personality type is a " + person.personality;
+
+  // a persons parameters using a function within
+
+  var person2 = {
+    firstName: "Stephane",
+    lastName : "Donut of Party",
+    id       : 5566,
+    fullName : function() {
+      return this.firstName + " " + this.lastName;
+    }
+  };
+  
+  // the (); is critical as that calls whats in the function
+  document.getElementById("profile2").innerHTML = person2.fullName();

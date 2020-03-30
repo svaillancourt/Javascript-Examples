@@ -241,3 +241,13 @@ car.stop()
 All cars have the same properties, but the property values differ from car to car.
 
 All cars have the same methods, but the methods are performed at different times.
+
+====================
+
+The this Keyword
+
+In a function definition, this refers to the "owner" of the function.
+
+In the example above, this is the person object that "owns" the fullName function.
+
+In other words, this.firstName means the firstName property of this object.

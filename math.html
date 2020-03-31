@@ -3,7 +3,7 @@
 <head>
     <!-- Character set: -->
     <meta charset="utf-8">
-    <meta name="description" content="JavaScript Event Examples!">
+    <meta name="description" content="JavaScript Math Examples!">
     <meta name="keywords" content="JavaScript, Learning, Examples, COVID-19">
     <meta name="author" content="Stephane">
 
@@ -27,7 +27,7 @@
 
     <!-- JavaScript file(s): -->
     <script type="text/javascript" src="./js/nav-bar.js" defer></script>
-    <script type="text/javascript" src="./js/events.js" defer></script>
+    <script type="text/javascript" src="./js/math.js" defer></script>
 
 </head>
 
@@ -44,37 +44,26 @@
                 </a>
             </li>
             <li>
-                <a href="./html/math.html">
+                <a href="./math.html">
                     <h2>Math</h2>
                 </a>
             </li>
             <li>
-                <a href="./html/events.html">
+                <a href="./events.html">
                     <h2>Events</h2>
                 </a>
             </li>
             <li>
-                <a href="./html/arrays.html">
+                <a href="./arrays.html">
                     <h2>Arrays</h2>
                 </a>
             </li>
-            <li>
-                <a href="./html/loops.html">
-                    <h2>Loops</h2>
-                </a>
+            <a href="./city-layout.html">
+                <h2>Edmonton Voting Wards</h2>
+            </a>
             </li>
             <li>
-                <a href="./html/city-layout.html">
-                    <h2>Edmonton Voting Wards</h2>
-                </a>
-            </li>
-            <li>
-                <a href="./html/test.html">
-                    <h2>test</h2>
-                </a>
-            </li>
-            <li>
-                <a href="./html/weekend.html">
+                <a href="./weekend.html">
                     <h2>Weekend Assignments</h2>
                 </a>
             </li>
@@ -84,28 +73,65 @@
             </button>
         </ul>
     </nav>
-
     <section class="title">
-        <h1>What Can JavaScript Events Do?</h1>
 
-        <p>The button below will pull from the Date() function and output your system date/time</p>
+        <!-- Running a calculation within the HTML-->
 
-        <!-- display your system time -->
+        <h1>Math JavaScript style</h1>
 
-        <button class = "btn" onclick="document.getElementById('time').innerHTML=Date()">The time is?</button>
+        <p>Running a calculation within the HTML. Example: 5 + 6 =</p>
 
-        <p id="time"></p>
+        <p id="add"></p>
 
-        <p>or trying calling using a function like displayDate()</p>
-        <br>
-        <button class = "btn" onclick="displayDate()">The time is?</button>
+        <script>
+            document.getElementById("add").innerHTML = 5 + 6;
+        </script>
 
-        <p id="date"></p>
+        <!-- Running a calculation using the write command-->
 
-        <!-- display your system time -->
+        <p>Never call document.write after the document has finished loading.
+            It will overwrite the whole document.</p>
 
-        <br>
+        <script>
+            document.write(5 + 6);
+        </script>
+
+        <!-- Variables from External Script-->
+
+        <h1>Math - Defining Variables</h1>
+
+        <p>In this example, x, y, and z are variables.</p>
+
+        <p id="math"></p>
+
+        <!-- Math - Multiply from External Script-->
+
+        <h1>Math - Multiplication Variables</h1>
+
+        <p>In this function, (myMulti) x = 4, y = 3, and the result is.</p>
+
+        <p id="multi"></p>
+
+        <!-- Math - Add from External Script-->
+
+        <h1>Math - Addition using Variables</h1>
+
+        <p> var price1 = 5; var price2 = 10; var total = price1 + price2;</p>
+
+        <p id="total"></p>
+
+        <!-- Running a calculation within command to the console-->
+
+        <h1>Math - Activate debugging with F12</h1>
+
+        <p>Select "Console" in the debugger menu. Then click Run again.</p>
+
+        <script>
+            console.log(5 + 6);
+        </script>
+
     </section>
+
 
     <section class="footer">
         <br>

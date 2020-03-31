@@ -1,3 +1,5 @@
+console.log("print all numbers up to 5");
+
 var count = 1;
 
 // condition is 6 times
@@ -12,11 +14,14 @@ while(count < 6) {
 //count is: 4
 //count is: 5
 
-var count = 7;  // making the count a 0 causes a infinite loop
-// condition is up to 20
-while(count <= 20) {
+console.log("print all numbers up to 7 by 2");
+
+
+var count = 7;  // set var to 7 // making the count a 0 causes a infinite loop
+
+while(count <= 20) { // 20 is the limit
  console.log("count is: " + count);
- count+=2;
+ count+=2;  //increases count by 2 until count reaches 20
 }
 
 //count is: 7
@@ -156,3 +161,4 @@ while(num <= 50) {
  }
  num++;
 }
+

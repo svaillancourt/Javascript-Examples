@@ -51,4 +51,17 @@ var cars = [
   var people = {firstName:"John", lastName:"Doe", age:46};
   document.getElementById("people").innerHTML = people["firstName"];
 
+// concating lists together
+
+function myConcat() {
+  var hege = ["Cecilie", "Lone"];
+  var stale = ["Emil", "Tobias", "Linus"];
+  var stepbrothers = ["Daniel", "Stephane", "Ernest"]
   
+  // first list merged together
+  var children = hege.concat(stale);  
+  
+  // second concat together
+  var family = children.concat(stepbrothers);
+  document.getElementById("family").innerHTML = family;
+  }

@@ -1,0 +1,32 @@
+Input from a user
+
+from the console line
+
+prompt ("What is your name?")
+
+console.log(); 	// this is use to print out a statment
+
+alert();	// this is the annoying pop up at the top
+
+alert("error! error!")
+
+
+var userName = prompt ("What is your name?")		// asking the user for information
+alert("Nice to meet you, ") + userName;			// alter at the top of the window
+console.log("Also great to meet you!")			// outputing an on screen msg
+
+var userFname = prompt ("What is your first name?");		// asking the user for information
+var userLname = prompt ("What is your last name?");		// asking the user for information
+var userAge = prompt ("how old are you?");		// asking the user for information
+
+console.log("Your full name " + userName + " " + userLname + "You are " + userAge);
+console.log("Nice to meet you!") 
+
+// age calc
+
+var age = prompt ("no really...how old are you?");		// asking the user for information
+var days = age *365.25; // the .25 is to count for leap years.
+
+alert(age + " years is roughly " + days + " days!");
+
+

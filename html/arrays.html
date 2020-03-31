@@ -26,7 +26,7 @@
     <link rel="stylesheet" type="text/css" href="./css/main.css">
 
     <!-- JavaScript file(s): -->
-    <script type="text/javascript" src="./js/scripts.js" defer></script>
+    <script type="text/javascript" src="./js/arrays.js" defer></script>
     <script type="text/javascript" src="./js/nav-bar.js" defer></script>
 
 </head>
@@ -44,27 +44,37 @@
                 </a>
             </li>
             <li>
-                <a href="./math.html">
+                <a href="./html/math.html">
                     <h2>Math</h2>
                 </a>
             </li>
             <li>
-                <a href="./events.html">
+                <a href="./html/events.html">
                     <h2>Events</h2>
                 </a>
             </li>
             <li>
-                <a href="./arrays.html">
+                <a href="./html/arrays.html">
                     <h2>Arrays</h2>
                 </a>
             </li>
             <li>
-                <a href="./city-layout.html">
+                <a href="./html/loops.html">
+                    <h2>Loops</h2>
+                </a>
+            </li>
+            <li>
+                <a href="./html/city-layout.html">
                     <h2>Edmonton Voting Wards</h2>
                 </a>
             </li>
             <li>
-                <a href="./weekend.html">
+                <a href="./html/test.html">
+                    <h2>test</h2>
+                </a>
+            </li>
+            <li>
+                <a href="./html/weekend.html">
                     <h2>Weekend Assignments</h2>
                 </a>
             </li>
@@ -77,21 +87,54 @@
 
     <section class="title">
 
-        <h1>Functions without arrows</h1>
+        <!-- Adding multiple objects together from an external script-->
 
-        <!-- increases the size of the font-->
+        <h1>Arrays - Car brands [Ford,Dodge,BMW,Volvo,Honda,Hyundai,Toyota]</h1>
 
-        <p>This example shows the syntax of an function, and how to use it. The syntax is a little different</p>
+        <p id="carBrands"></p>
+
+        <h1>Arrays - Car brands on index 1</h1>
+
+        <p id="carBrands1"></p>
+
+        <h1>Arrays - Car brands sorted by alpha</h1>
+
+        <p id="carBrandsSort"></p>
+
+        <h1>Arrays - Car brands sorted in reverse alpha</h1>
+
+        <p id="carBrandsReverse"></p>
         
-        <p id="hello"></p>
+        <h1>Arrays - Amount of cars brands listed</h1>
 
-        <h1>Functions with arrows</h1>
+        <p id="carBrandsLength"></p>      
 
-        <!-- increases the size of the font-->
+        <h1>Arrays - Making a list of all the brands</h1>
 
-        <p>This example shows the syntax of an Arrow Function, and how to use it.</p>
+        <p id="carList"></p>      
+
+        <h1>Arrays - Adding a brand to the list</h1>
+
+        <button class ="btn" onclick="carPush()">Try it</button>
+
+        <p id="carsPush"></p>   
+
+        <h1>Arrays - People</h1>
+
+        <p>Uses their names to access object properties.</p>
         
-        <p id="jello"></p>
+        <p id="people"></p>
+
+        <h1>Arrays - Contacting multiple lists together</h1>
+
+        <p>var hege = ["Cecilie", "Lone"]   
+            var stale = ["Emil", "Tobias", "Linus"]
+            var stepbrothers = ["Daniel", "Stephane", "Ernest"]</p>
+            
+        <button class= "btn" onclick="myConcat()">Try it</button>
+
+        <p id="family"></p>
+        
         <br>
     </section>
 

@@ -1,0 +1,76 @@
+Comparison Operators
+
+Assuming x = 5
+
+Operatoea 	Name				Example		Result
+>		Greater than			x > 10		false
+>=		Greater than or equal to	x >= 5		true
+<		Less than			x < -50		false
+<=		Less than or equal to		x <= 100	true
+==		Equal to			x == "5"	true
+!=		Not equal to			x != "b"	true
+===		Equal value and type		x === "5"	false
+!==		Not equal value or equal type	x !== "5"	true
+
+var x = 99;
+
+x == "99"  //true 
+
+x === "99" //false due to it being a different data type
+
+var y = null;
+
+y == undefined //true
+
+y === undefined //false
+
+true == "1"          //true
+
+0 == false           //true
+
+null == undefined    //true
+
+NaN == NaN           //false
+
+
+
+Increment(++) -
+++ is a fancy way to say add 1 to any value. It matters where you put the incrementer. Oh, and by the way, we need variables now. JavaScript’s interpreter can’t read ++10 if 10 is not saved inside a variable. why? Because the plus, plus operator is what we call syntactic sugar. It’s something that was created to make life easier for developers, because it turns out we’re pretty lazy. Instead of saying 10 + 1, we get to forgo adding the 1. Since plus, plus is technically not a real arithmetic operator, you need to define a variable so that you won’t get errors.
+
+Before we start our lesson on variables, try playing around with them. Type this into the code editor:
+
+var cookies = 5;
+console.log(cookies++);// > 5
+console.log(++cookies);// > 7
+
+Plus Equals(+=)
+
+It turns out programmers are lazier than you thought. Yes, there are more arithmetic shortcuts.
+
+Say you have var score = 5; and, instead of incrementing score by 1, you want to increment it by 6.
+
+Normally you’d write, score = score + 6;
+
+With Plus Equals(+=) you simply have to write it as, score += 6;
+
+Why don’t you try it out with the different arithmetic operators?
+
+score *= 6;
+score -= 6;
+score /= 6;
+
+decrement(- -) -
+Number:?--?number
+
+String: NaN
+
+Boolean: --true
+
+Comparison Operators
+
+equals: ==, 
+not equal: !=,
+greater: >,
+less: <,
+greater than or equal: >=,
+less than or equal: <=,

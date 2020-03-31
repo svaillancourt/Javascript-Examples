@@ -1,0 +1,47 @@
+Loops
+
+Repeating Things
+
+console.log(1);
+console.log(2);
+console.log(3);
+console.log(4);
+console.log(5);
+console.log(6);
+console.log(7);
+console.log(8);
+console.log(9);
+console.log(10);
+
+While Loops
+Repeat code WHILE a condition is true
+
+While Loops
+Printing numbers from 1-5
+
+var count = 1;
+
+while(count < 6) {
+ console.log("count is: " + count);
+ count++;
+}
+
+//count is: 1
+//count is: 2
+//count is: 3
+//count is: 4
+//count is: 5
+
+var count = 5;
+
+while(count <= 20) {
+ console.log("count is: " + count);
+ count+=2;
+}
+
+//count is: 5
+//count is: 7
+//count is: 9
+//count is: 11
+//count is: 13
+

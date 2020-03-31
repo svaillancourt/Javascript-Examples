@@ -1,3 +1,4 @@
+
 // function that replaces text within the HTML
 
 function myReplacement() {
@@ -87,4 +88,6 @@ function simpsonsText() {
   var str = "Please locate where 'locate' occurs!";
   var pos = str.indexOf("locate");
 
+  // expected output is 
   document.getElementById("find").innerHTML = pos;
+

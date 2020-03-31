@@ -69,6 +69,10 @@ ul{
   line-height: 2.0;
 }
 
+p{
+  font-size: medium;
+}
+
 a:link {
   color: white;
 }

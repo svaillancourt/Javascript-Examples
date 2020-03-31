@@ -10,7 +10,7 @@ document.getElementById("numbers2").innerHTML = second;
 document.getElementById("numbers2Sort").innerHTML = second.sort();
 document.getElementById("numbers2Reverse").innerHTML = second.reverse();
 
-function arrayOfMultiples(num, lenght){
+function arrayOfMultiples(num, length){
    // defining the variable
     var arr = [];
 

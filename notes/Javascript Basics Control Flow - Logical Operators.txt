@@ -1,0 +1,39 @@
+Logical Operators
+
+AND, OR, and NOT
+
+Assuming x = 5 and y = 9
+
+Operator	Name	Example			Result
+
+&&		AND	x < 10 && x !== 5	false
+||		OR	y > 9 || x === 5	true
+!		NOT	!(x === y)		true
+
+
+// Boolean Logic
+
+var x = 10;
+var y = "a"
+
+console.log(y === "b" || x >= 10); // comes out true
+
+
+var x = 3;
+var y = 8;
+   	  //       true   false        false   true                   
+console.log(!(x == "3" || x === y) && !(y != 8 && x <= y))
+// should come out as false
+
+!"Hello World"
+
+!""
+
+!null
+
+!0
+
+!-1
+
+!NaN
+

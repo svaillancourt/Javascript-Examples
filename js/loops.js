@@ -28,6 +28,9 @@ while(count <= 20) { // 20 is the limit
 //count is: 9
 //count is: 11
 //count is: 13
+//count is: 15
+//count is: 17
+//count is: 19
 
 // Printing each character in a string
 
